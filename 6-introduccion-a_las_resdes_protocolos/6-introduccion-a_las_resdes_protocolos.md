@@ -60,4 +60,16 @@ Estos cables son muy frágiles, y cuando alguno de ellos sufre una avería, es c
 
 ![](https://static.platzi.com/media/user_upload/A86-285c8d27-0789-4ce5-88a8-259bc5ad20b8.jpg)
 
+
+# Qué es un dominio, DNS o Domain Name System
+
+## ¿Qué es un dominio?
+
+Los dominios son los nombres únicos de los sitios web. Se utilizan porque son más fáciles de recordar que la **IP**. Por ejemplo es más fácil recordar [http://misitio.com](http://misitio.com) a 190.02.4.123
+
+
+## ¿Qué es un DNS?
+
+**DNS** significa Domine Name System. La manera de relacionar una IP con el dominio que le queremos asignar es mediante los DNS. Es decir, sirve como una base de datos. Nosotros podemos cambiar hacia donde apunta nuestro dominio, por ejemplo cuando queremos cambiar de proveedor de hosting. 
+
 ![](https://static.platzi.com/media/user_upload/freddy%20image-56f8e6b8-679b-410a-a675-e5e702e0e3f8-62b2f539-1f96-48bf-824a-2fbeaf9cd27a.jpg)
