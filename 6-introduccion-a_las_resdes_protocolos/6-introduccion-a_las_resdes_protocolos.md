@@ -72,4 +72,34 @@ Los dominios son los nombres únicos de los sitios web. Se utilizan porque son m
 
 **DNS** significa Domine Name System. La manera de relacionar una IP con el dominio que le queremos asignar es mediante los DNS. Es decir, sirve como una base de datos. Nosotros podemos cambiar hacia donde apunta nuestro dominio, por ejemplo cuando queremos cambiar de proveedor de hosting. 
 
+# Cómo los ISP hacen Quality of Service o QoS
+
+## ¿Qué es el Quality of Service?
+
+Cuando queremos conectarnos a puntos muy lejanos, por ejemplo, a un servidor ubicado en el otro lado del mundo para nuestro proveedor de internet es muy costoso. La manera que tiene los servidores para manejar estas situaciones es priorizando las conexiones usando un QoS (Quality of Service), que se traduce en que se regulan la velocidad, según el servicio al que quieres acceder.
+
+Cuando la conexión se encuentra más cerca el proveedor de internet hace una red MAN (Metropolitan Area Network) y el costo de eso es casi nulo.
+
+Hay una forma de burlar el QoS y simular una la conexión más cercana y esto es a través del CDN (Content Delivery Network).
+
+## ¿Qué es CDN?  
+Un CDN es un servicio que contiene una copia de contenido estático, como imágenes o videos, que estan alojados originalmente en otro servidor. Es como tener una copia más cercana de dicho material. Esto se traduce en mejores velocidades de navegación, a un menor costo.
+
 ![](https://static.platzi.com/media/user_upload/freddy%20image-56f8e6b8-679b-410a-a675-e5e702e0e3f8-62b2f539-1f96-48bf-824a-2fbeaf9cd27a.jpg)
+
+# Cómo funciona la velocidad en internet
+## ¿Qué velocidad de internet tengo?
+
+La velocidad que nos ofrecen los proveedores de Internet, no es constante y muchos menos, es igual. Para entender nuestra velocidad de internet, es necesario conocer que esta depende de dos cosas. El ping y el ancho de banda.
+
+## ¿Qué es el ancho de banda?
+
+El ancho de banda es la capacidad máxima de información que se puede mandar. La mayoría de los **ISPs** (Internet Service Providers) nos venden ancho de banda en Mb. Es decir se mide en la cantidad de bits (no bytes) que transmite por segundo. Esta velocidad es variable y depende también del ping.
+
+## ¿Qué es el ping?
+
+La velocidad del internet se mide obteniendo el tiempo que le toma a la información viajar a través de un punto a otro en milisegundos. Por ejemplo entre tu computadora y el servidor. El ping tiene un límite y eso no va a cambiar nunca. Nuestra señal siempre va a viajar a una velocidad menor o igual a la velocidad de la luz, pero nunca podrá viajar más rápido. Puede ser un ping muy grande, cuando tenemos mucha distancia que recorrer.
+
+Entonces, el ancho de banda es como el tamaño de un tubo de agua y el ping es la velocidad a la que puede viajar el agua.
+
+![](https://static.platzi.com/media/files/bandwidth_df3967e6-f876-43da-b7af-f32d912ab1d1.png)
